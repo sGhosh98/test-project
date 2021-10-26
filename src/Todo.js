@@ -12,9 +12,7 @@ const addData=(e)=>{
        e.preventDefault();
        setDisp(true);
       if(txt.length>0){
-          console.log(txt);
-    
-       setTimeout(()=>{
+        setTimeout(()=>{
         setDisp(false);
         tempArr.push(txt); 
         setCounter(1);
